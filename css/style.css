@@ -14,28 +14,28 @@ html{
      overflow-x: hidden;
 }
 h1{
-    color: whitesmoke;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 4rem;
 }
 h2{
-    color: whitesmoke;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 3rem;
 }
 h3{
-    color: whitesmoke;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 3rem;
 }
 h4{
-    color: whitesmoke;
+    color: white;
      font-family: 'Open Sans', sans-serif;;
     font-size: 1rem;
 }
 
 p{
-    color: whitesmoke;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5rem;
 }
