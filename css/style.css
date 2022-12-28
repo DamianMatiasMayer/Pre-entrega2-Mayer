@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none
+}
+body{
+    min-height: 100vh;
+    background: url(/img/fondo\ gim.jpg) no-repeat center center fixed;
+    background-size: cover;    
+}
+html{
+     font-size: 62.5%;
+     overflow-x: hidden;
+}
+h1{
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+}
+h2{
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+}
+h3{
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+}
+h4{
+    color: whitesmoke;
+     font-family: 'Open Sans', sans-serif;;
+    font-size: 1rem;
+}
+
+p{
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+}
+.text-center{
+    display: inline;
+    text-align: center;
+    padding-right: 100px;
+    
+}
+.text-left{
+    display: inline;
+    text-align: left;
+    padding-right: 100px;
+}
+.text-right{
+    display: inline;
+    text-align:right
+}
+/* botonera nueva nav */
+    nav{
+        background-color: darkgrey;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 8px 20px;
+        justify-content: space-between;
+    }
+        nav ul{
+            display: inline-block;
+            margin-left: 20px;
+    }
+            nav ul li{
+                display: inline-block;
+                list-style: none;
+                margin-right: 20px;
+    }
+                nav ul li a{
+                    color: white;
+                    font-size: 18px;
+                    padding: 7px 13px;
+                    border-radius: 3px;
+                    text-transform: uppercase;               
+    } 
+                li a.active, li a:hover{
+                     background-color: RGB(255, 209, 51);
+                    transition: .5s;
+    }
+.logo{
+    height: 80px;
+}
+.d-flex{
+    display: flex;            
+}
+.justify-content-space{
+    justify-content: space-between;
+    padding: 40px;
+    background-color: darkgrey;
+    font-family: "calibri";
+    color: white;        
+}
+.justify-content-center{
+    justify-content: center;
+}
+.section{
+    padding: 20px 20px;    
+}
+section.intro{
+    padding: 60px 50px;
+}
+section.intro h1{
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+section.intro p{
+    line-height: 1.8em;
+    font-size: 2em;
+}
+section figure caption{
+    color: black;
+    font-size: 4rem;
+}
+.controls{
+    font-size: 18px;    
+}
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 10px;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer{
+    width: 100%;        
+    background-color: black;
+    padding: 10px 0px;
+}
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+    margin: auto;
+}
+.box__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 18px;            
+}
+.box__footer .logo img{
+    width: 80px;
+}
+.box__footer .terms p{
+    max-width: 350px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+.box__footer h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: white;
+}
+.box__footer a{
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+}
+.box__footer a:hover{
+    opacity: 0.8;
+}
+.box__footer a .fa-brands{
+    font-size: 25px;
+}
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box__copyright p{
+    margin-top: 20px;
+    color: white;
+}
+.box__copyright hr{
+    border: none;        
+    height: 1px;
+    background-color: white;
+}
+.box__footer p{
+    color: white;
+    font-size: 20px;
+}
+
