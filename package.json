@@ -1,0 +1,24 @@
+{
+  "name": "damian",
+  "version": "1.0.0",
+  "description": "Nucleo es un gimnasio que cuenta con todo tipo de equipamiento, profesionales dispuestos a ayudar a lograr tu objetivo y a llevar tu cuerpo al maximo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamianMatiasMayer/Pre-entrega2-Mayer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamianMatiasMayer/Pre-entrega2-Mayer/issues"
+  },
+  "homepage": "https://github.com/DamianMatiasMayer/Pre-entrega2-Mayer#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}
